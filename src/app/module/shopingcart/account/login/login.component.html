@@ -1,0 +1,18 @@
+<div class="container card">
+    <div class="card-header">
+        <h2>Login to Shopping Cart</h2>
+    </div>
+    <div class="card-body">
+        <b>Email :</b><br> <input type="email" class="form-control-sm" [(ngModel)]="email"><br>
+        <label class="text-danger">{{ emailerror }}</label><br>
+        <b>Password :</b><br> <input type="password" class="form-control-sm" [(ngModel)]="pass"><br>
+        <label class="text-danger">{{ passerror }}</label><br>
+    </div>
+    <div class="card-footer">
+        <!-- <a routerLink="/list" class="btn btn-primary p-2">Login</a> -->
+        <input type="button" class="btn btn-primary p-2" value="LogIn" (click)="login()">
+        <a routerLink="/demo" class="btn btn btn-success p-2 ml-5">Other Demo Example</a>
+    </div>
+    
+</div>
+

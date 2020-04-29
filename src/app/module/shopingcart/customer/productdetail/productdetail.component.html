@@ -1,0 +1,14 @@
+<div class="container-fluid d-flex flex-wrap">
+    <div class="row p-5">
+      <div class="col-4 ml-2">
+        <img class="card-img-top" src="{{ product.Image | imagenotfound}}" alt="Card image cap" height="auto" width="auto">
+      </div>
+      <div class="col-6 ml-5">
+        <h3 class="mb-4"><b>{{ product.ProdName }}</b></h3>
+        <h4 class="mb-3">{{ product.Price | currency:'INR'}}</h4>
+        <p>{{ product.Detail }}</p>
+        <a class="btn btn-warning" (click)="addToCart(product)">Add To Cart</a>
+      </div>
+    </div>
+  </div>
+  

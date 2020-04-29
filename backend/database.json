@@ -1,0 +1,84 @@
+{
+  "Products": [
+    {
+      "id": 1,
+      "Price": "85630",
+      "ProdName": "IPhone XR",
+      "Image": "./assets/ProductImages/iphonexr.png",
+      "Detail": "Apple · iPhone · iOS · 6.1 inches screen · Facial Recognition · 7 MP Front Camera · 12 MP Rear Camera · 4G LTE · 128 GB · Dual SIM\niPhone XR features the most advanced LCD in a smartphonea 6.1-inch Liquid Retina display with industry-leading colour accuracy and an innovative backlight design that allows the screen to stretch into the corners. Six stunning new finishes. Advanced Face ID lets you securely unlock your iPhone, log in to apps, and pay with just a glance. The A12 Bionic chip with next-generation Neural Engine uses real-time machine learning to transform the way you experience photos, gaming, augmented reality, and more. A breakthrough 12MP camera system with Portrait mode, Portrait Lighting, enhanced bokeh, and all-new Depth Control. Water resistance. And iOS 12the most advanced mobile operating system in the worldwith powerful new tools that make iPhone more personal than ever."
+    },
+    {
+      "id": 2,
+      "Price": "66999",
+      "ProdName": "IPhone X",
+      "Image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQEmyiCvFSOrO_dGhC-wGGKwQkl5NHmohsOgnZf1EIOVn2S2SnyYYyelPYWKBrPgMFAs28aMHcg-gpDfYEApRXNZquaTYreL7Q9JCvkC2TB9sm5pmCuH5fijg&usqp=CAE",
+      "Detail": "64 GB · Water Resistant · 2436 x 1125\nApple iPhone X 256GB lowest price online unused iphone X from dealsplant"
+    },
+    {
+      "id": 3,
+      "Price": "7999",
+      "ProdName": "Lenovo A5",
+      "Image": "./assets/ProductImages/LenovoA5.jpg",
+      "Detail": "Lenovo · 8 MP Front Camera · 13 MP Rear Camera · 32 GB Get Set For An Immersive Visual Experience With The Lenovo A5 Smartphone That Comes With A 13.84 Cm 5.45 18:9 Hd Full-screen Display. You Can Also Capture Beautiful Pictures."
+    },
+    {
+      "id": 4,
+      "Price": "31999",
+      "ProdName": "lenovo Z6 Pro",
+      "Image": "./assets/ProductImages/lenovoZ6Pro.jpg",
+      "Detail": "Lenovo · 48 MP Rear Camera · 128 GB Say Hello To The Lenovo Z6 Pro Smartphone Whose 48 Mp 1.27 Cm-quad-bayer Sensor Camera, Coupled With The Wide-angle F/1.8 Lens, Will Elevate Your Smartphone Photography."
+    },
+    {
+      "id": 5,
+      "Price": "28850",
+      "ProdName": "IPhone 7",
+      "Image": "./assets/ProductImages/iPhone7.jpg",
+      "Detail": "Apple · iPhone · iPhone 7 · iPhone 7 (Original) · iOS · 4.7 inches screen · Fingerprint Scanner · 7 MP Front Camera · 12 MP Rear Camera · 4G LTE Apple iPhone 7 Plus Smart Phone 32 GB, Rose Gold with an all-new Home button, dramatically improves the most important aspects of the iPhone and is the very first water."
+    },
+    {
+      "id": 6,
+      "Price": "71400",
+      "ProdName": "Apple Iphone 11 (128Gb) White",
+      "Image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTqDpwtHC9b5-52jpA0BSS43DKr_Z9rj-jf0CGl0xfXLqDa7VT8LQw9P1FgaP_h64uN5lksVapgZVT25fWwjNMCgu_rTmVIwAK_Lzsjse2rQg61UDsaAFJO&usqp=CAE",
+      "Detail": "Apple · iPhone · iOS · 6.1 inches screen · 12 MP Rear Camera · 128 GB · Water Resistant\n6.1-inch Liquid Retina HD LCD display Water and dust resistant (2 meters for up to 30 minutes, IP68) Dual-camera system with 12MP Ultra Wide and Wide cameras"
+    },
+    {
+      "id": 7,
+      "Price": "7500",
+      "ProdName": "Lenvo A5",
+      "Detail": "Something"
+    }
+  ],
+  "User": [
+    {
+      "id": 1,
+      "name": "Sunasara",
+      "email": "sun@gmail.com",
+      "password": "sunasara123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "SajidAli",
+      "email": "sajid@gmail.com",
+      "password": "sunasara123",
+      "role": "customer"
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "productId": 1,
+      "productName": "IPhone XR",
+      "customer": "Sunasara",
+      "description": "Something Describ"
+    },
+    {
+      "id": 2,
+      "productId": 4,
+      "productName": "lenovo Z6 Pro",
+      "customer": "Sunasara",
+      "description": "Something Describ"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+[
+    {"Id":1, "ProdName":"7 Series", "Price":"$0.45", "Image":"http://dummyimage.com/172x243.jpg/ff4444/ffffff"},
+    {"Id":2, "ProdName":"Celica", "Price":"$8.24", "Image":"http://dummyimage.com/108x213.png/dddddd/000000"},
+    {"Id":3, "ProdName":"745", "Price":"$7.66", "Image":"http://dummyimage.com/132x227.jpg/dddddd/000000"},
+    {"Id":4, "ProdName":"Mustang", "Price":"$7.47", "Image":"http://dummyimage.com/148x138.jpg/dddddd/000000"},
+    {"Id":5, "ProdName":"Avalon", "Price":"$8.47", "Image":"http://dummyimage.com/115x215.jpg/cc0000/ffffff"},
+    {"Id":6, "ProdName":"Ram 3500", "Price":"$7.14", "Image":"http://dummyimage.com/240x168.jpg/dddddd/000000"}
+]

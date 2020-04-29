@@ -1,0 +1,16 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand">Shopping Cart Customer Panel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" routerLink="/customer/list" style="cursor: pointer;">List Product</a>
+                <a class="nav-item nav-link" routerLink="/customer/cart" style="cursor: pointer;">Cart</a>
+                <button class="btn btn-danger btn-sm" style="margin-left: 40vw;" (click)="logOut()">Log Out</button>
+            </div>
+        </div>
+    </div>
+</nav>

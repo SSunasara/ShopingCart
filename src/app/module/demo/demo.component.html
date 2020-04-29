@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand">Other Anguler Demo Panel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a routerLink="/demo/databinding" class="nav-item nav-link">Data Binding</a>
+                <a routerLink="/demo/directive" class="nav-item nav-link">Directive</a>
+                <a routerLink="/demo/pipe" class="nav-item nav-link">Pipe</a>
+                <a routerLink="/" class="btn btn-success" style="margin-left: 20vw;">Login to Shopping Cart</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-5 mb-5">
+<router-outlet>
+</router-outlet>
+</div>

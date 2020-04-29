@@ -1,0 +1,30 @@
+<section>
+    <div class="container mt-3">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Id</th>            
+                    <th scope="col">Product</th>            
+                    <th scope="col">Customer Name</th>
+                    <th scope="col">Description</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody *ngIf="carts.length > 0">
+                <tr *ngFor="let item of carts">
+                    <td>{{ item.id }}</td>
+                    <td>{{ item.productName }}</td>
+
+                    <td>{{ item.customer }}</td>
+                    <td>{{item.description}}</td>
+                    <td class="text-center"><button class="btn btn-danger btn-sm" (click)="deleteCart(item.id)">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div *ngIf="carts.length == 0">
+            <h6 class="text-center mt-5" style="font-size: 1.3rem;">No Items found in the cart 🥺</h6>
+        </div>
+
+    </div>
+</section>

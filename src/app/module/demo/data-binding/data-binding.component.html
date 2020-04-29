@@ -1,0 +1,49 @@
+<div class="container text-center mt-5 mb-5">
+    <h3>Event Binding & String Interpolation</h3>
+    <div class="row">
+      <div class="col-6">
+        <div class="bg-primary p-5" (click)="clickFirst()">
+          First Div
+          <div class="bg-success p-5" (click)="clickSecond()">
+            Secod Div
+            <div class="bg-danger p-5" (click)="clickThird()">
+              Third Div <br>
+              <input type="button" class="btn btn-warning" value="Click Button1" (click)="clickButton1()"> <br>
+              <input type="button" class="btn btn-warning mt-3" value="Click Button2" (click)="clickButton2()">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 p-5">
+        <button class="btn-danger mb-3" (click)="clear()">Clear</button> <br>
+        
+        {{ClickMessage}}
+
+      </div>
+    </div>
+  <hr style="height: 10px;background: rgb(75, 75, 75);">
+    
+  <h3 class="mt-5 mb-5"><input [value]="PropBinding"></h3>
+
+  
+    <hr style="height: 10px;background: rgb(75, 75, 75);">
+    <h3 class="mt-5">Tow Way Data Binding</h3>
+    <div class="row">
+      <div class="col-6">
+        <input [(ngModel)]="Test_Text"> <br>
+        <input type="checkbox" [(ngModel)]="Test_Checkbox"> <br>
+        <select [(ngModel)]="Test_Select"> <br>
+          <option value="op1">Option1</option>
+          <option value="op2">Option2</option>
+          <option>Option3</option>
+          <option>Option4</option>
+        </select>
+        
+      </div>
+      <div class="col-6">
+        Test_Test : {{Test_Text}} <br>
+        Test_CheckBox : {{Test_Checkbox}} <br>
+        Test_Select : {{Test_Select}}
+      </div>
+    </div>
+</div>

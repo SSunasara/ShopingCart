@@ -1,0 +1,14 @@
+<div class="container-fluid d-flex flex-wrap">
+  <div class="row p-5">
+    <div class="col-4 ml-2">
+      <img class="card-img-top" src="{{ image | imagenotfound }}" alt="Card image cap" height="auto" width="auto">
+    </div>
+    <div class="col-6 ml-5"> 
+      <b>Name</b><br> <input type="text" class="form-control" [(ngModel)]="product.ProdName"><br>
+      <b>Image</b><br> <input type="text" class="form-control" [(ngModel)]="image" placeholder="Give Online URL"><br>      
+      <b>Price</b><br> <input type="text" class="form-control" [(ngModel)]="product.Price"><br>
+      <b>Description</b><br> <textarea class="form-control" style="height:250px;min-width: 300px;" [(ngModel)]="product.Detail"></textarea><br>
+      <input type="button" class="btn btn-success" value="Update" (click)="update(product.id)">
+    </div>
+  </div>
+</div>

@@ -1,0 +1,37 @@
+<div class="container mt-5 mb-5">
+  <select [(ngModel)]="selectedValue">  
+      <option *ngFor="let item of cases;" [value]="item">{{item}}</option>  
+  </select>
+    
+    <br> With Normal Switch Cases
+    <div class='row' [ngSwitch]="selectedValue">  
+      <div *ngSwitchCase="'One'">One is Pressed</div>  
+      <div *ngSwitchCase="'Two'">Two is Selected</div>  
+      <div *ngSwitchDefault>Default Option</div>  
+    </div>  <br><br>
+    
+    With ngFor Iterating
+    <div class='row' [ngSwitch]="selectedValue">  
+      <div *ngFor="let case of cases" >
+        <div *ngSwitchCase="case">{{case}} is Pressed</div> 
+      </div>
+      <div *ngSwitchDefault>Default Option</div>  
+    </div>  
+
+    <div class="mt-3">
+      <h3>Custom Directive</h3>
+      <div>
+        Select Color : 
+        <input type="radio" name="colors" (click)="bgcolor='green'">Green
+        <input type="radio" name="colors" (click)="bgcolor='yellow'">Yellow
+        <input type="radio" name="colors" (click)="bgcolor='cyan'">Cyan
+      </div>
+      <div>
+        Select Font size : 
+        <input type="radio" name="size" (click)="s='20px'">20PX
+        <input type="radio" name="size" (click)="s='20px'">30PX
+        <input type="radio" name="size" (click)="s='40px'">40PX
+      </div>
+      <b><p [appTextformatting]="bgcolor" [size]="s">Hover Me!!!!</p></b>
+    </div>
+</div>
